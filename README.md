@@ -63,31 +63,6 @@ robotics-exposure-europe/
 
 ---
 
-## How to Reproduce
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/Siyaovo/robotics-exposure-europe.git
-cd robotics-exposure-europe
-```
-
-**2. Install dependencies**
-```bash
-pip install nltk scikit-learn pandas openpyxl matplotlib seaborn lightgbm shap statsmodels
-```
-
-**3. Download data**  
-See `data/README.md` for download instructions. Place all files in `data/raw/`.
-
-**4. Run notebooks in order**
-```
-01_preprocessing_lsa.ipynb  →  02_prediction_model.ipynb  →  03_regression_analysis.ipynb
-```
-
-Each notebook saves its outputs to `data/clean/` or `outputs/`, which are used as inputs by the next notebook.
-
----
-
 ## Data Sources
 
 | Dataset | Source | Used for |
